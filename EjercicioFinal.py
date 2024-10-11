@@ -110,12 +110,12 @@ class Inventario:
             print(producto)
     
     
-#Creamos 3 productos, el último tiene el mismo nombre, con lo que actualizamos la cantidad.
+#Creamos 5 productos, el último tiene el mismo nombre, con lo que actualizamos la cantidad.
 producto1 = Producto("Manzanas", "Fruta", 2, 4)
 producto2 = Producto("Peras", "Fruta", 3, 9)
-producto3 = Producto("Manzanas", "Fruta", 10, 7)
-producto4 = Producto("Melocotones", "Fruta", 4, 25)
-producto5 = Producto("Melón", "Fruta", 6, 10)
+producto3 = Producto("Melocotones", "Fruta", 4, 25)
+producto4 = Producto("Melón", "Fruta", 6, 10)
+producto5 = Producto("Manzanas", "Fruta", 10, 7)
 
 #Creamos el inventario y añadimos 3 productos
 inventario = Inventario()
